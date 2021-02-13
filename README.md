@@ -11,6 +11,6 @@
 
 ## Course team 
 
-* Mariia Pukalchik - *Instruktor*
+* Mariia Pukalchik - *Instructor*
 * Dmitrii Shadrin - TA
 * and others
