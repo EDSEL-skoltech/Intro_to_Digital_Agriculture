@@ -8,3 +8,8 @@
     * Crop simulation models and examples
     * Sensitivity analysis of comlex models
     * Homework
+
+## Course team 
+
+    * Mariia Pukalchik - *Instruktor*
+    * Dmitrii Shadrin - TA
