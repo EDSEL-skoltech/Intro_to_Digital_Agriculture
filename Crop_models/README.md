@@ -12,11 +12,13 @@
 
 ## Google Colab 
 
-Open `Seminar_Crop_Model.ipynb` in Google Colab!\
+Open `Seminar_Crop_Model.ipynb` in Google Colab!
+
 <a href="https://colab.research.google.com/github/EDSEL-skoltech/Intro_to_Digital_Agriculture/blob/main/Crop_models/Seminar_Crop_Model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
-Open `Seminar_Sensitivity_analysis.ipynb` in Google Colab!\
+Open `Seminar_Sensitivity_analysis.ipynb` in Google Colab!
+
 <a href="https://colab.research.google.com/github/EDSEL-skoltech/Intro_to_Digital_Agriculture/blob/main/Crop_models/Seminar_Sensitivity_analysis.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Dependencies 
@@ -34,9 +36,11 @@ https://salib.readthedocs.io/en/latest/
 
 Clone this repository and create new `conda env` on your local machine
 
-`git clone https://github.com/EDSEL-skoltech/multi_objective_irrigation.git`
+`git clone https://github.com/EDSEL-skoltech/Intro_to_Digital_Agriculture`
 
 Create new env with `pcse` package for crop models WOFOST
+
+`cd Crop_models`
 
 `conda env create -f py3_pcse.yml`
 
@@ -61,7 +65,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/EDSEL-skoltech/multi_objective_irrigation/fork>)
+1. Fork it (<https://github.com/EDSEL-skoltech/Intro_to_Digital_Agriculturefork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
