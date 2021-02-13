@@ -12,13 +12,12 @@
 
 ## Google Colab 
 
-Open `How_to_start.ipynb` in Google Colab!
+Open `Seminar_Crop_Model.ipynb` in Google Colab!\
+<a href="https://colab.research.google.com/github/EDSEL-skoltech/Intro_to_Digital_Agriculture/blob/main/Crop_models/Seminar_Crop_Model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-<a href="https://colab.research.google.com/github/EDSEL-skoltech/multi_objective_irrigation/blob/main/How_to_start.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-To plot results of optimization open `Plots_for_ICCS.ipynb`
-
-<a href="https://colab.research.google.com/github/EDSEL-skoltech/multi_objective_irrigation/blob/main/Plots_for_ICCS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+Open `Seminar_Sensitivity_analysis.ipynb` in Google Colab!\
+<a href="https://colab.research.google.com/github/EDSEL-skoltech/Intro_to_Digital_Agriculture/blob/main/Crop_models/Seminar_Sensitivity_analysis.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Dependencies 
 
