@@ -11,6 +11,10 @@
     * Crop simulation models and examples
     * Sensitivity analysis of comlex models
     * Homework
+* [__Agro optimization__](./Agro_Optimization) - Optimization of agricultural practices
+    * Gradient-free optimization and crop simulation models
+    * Irrigation shedule optimization
+    * Homework
 
 ## Course team 
 
