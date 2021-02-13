@@ -1,0 +1,15 @@
+aiogram
+pyyaml
+pandas>=1.1.0
+pcse
+nevergrad
+matplotlib
+seaborn
+numpy
+scipy
+plotly==4.11.0
+kaleido
+sentinelhub
+scikit-image
+sentinelhub
+

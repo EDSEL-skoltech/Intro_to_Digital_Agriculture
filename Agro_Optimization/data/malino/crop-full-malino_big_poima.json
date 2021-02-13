@@ -1,0 +1,476 @@
+  {
+	"crops": {
+		"WW": {
+			"is-winter-crop": true,
+			"cropParams": {
+				"species": ["include-from-file", "crops/wheat.json"],
+				"cultivar": ["include-from-file", "crops/wheat/winter-wheat.json"]
+			},
+			"residueParams": ["include-from-file", "crop-residues/wheat.json"]
+		},
+		 "MEP": {
+      		"cropParams": {
+        		"species": ["include-from-file", "crops/potato.json"],
+        		"cultivar": ["include-from-file", "crops/potato/moderately-early-potato.json"]
+      		},
+      		"residueParams": ["include-from-file", "crop-residues/potato.json"]
+    	},
+		"SG": {
+			"is-winter-crop": false,
+			"cropParams": {
+				"species": ["include-from-file", "crops/barley.json"],
+				"cultivar": ["include-from-file", "crops/barley/spring-barley.json"]
+			},
+			"residueParams": ["include-from-file", "crop-residues/barley.json"]
+		},
+		"ZR":{
+			"is-winter-crop": false,
+			"cropParams":{
+				"species": ["include-from-file", "crops/sugar-beet.json"],
+				"cultivar": ["include-from-file", "crops/sugar-beet/.json"]
+			},
+			"residueParams": ["include-from-file", "crop-residues/beet.json"]
+
+		},
+		"SX0":{
+			"is-winter-crop":false,
+			"cropParams":{
+				"species": ["include-from-file", "crops/soybean.json"],
+				"cultivar": ["include-from-file", "crops/soybean/000.json"]
+			},
+			"residueParams": ["include-from-file", "crop-residues/soybean.json"]
+		}
+	},
+	"fert-params": {
+		"AN": ["include-from-file", "mineral-fertilisers/AN.json"],
+		"AS": ["include-from-file", "mineral-fertilisers/AS.json"],
+		"U": ["include-from-file", "mineral-fertilisers/U.json"],
+		"UAN": ["include-from-file", "mineral-fertilisers/UAN.json"]
+	}, 
+    "cropRotation": [
+    	
+    	{
+			"worksteps": [
+				{ "date": "2015-06-01", "type": "Sowing", "crop": ["ref", "crops", "MEP"] },
+				{
+					"date": "2015-06-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-06-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-06-22",
+					"type": "MineralFertilization",
+					"amount": [128.0, "kg N"],
+					"partition": ["ref", "fert-params", "UAN"]
+				},
+				{
+					"date": "2015-07-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-07-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-07-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-07-29",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-08-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2015-08-15",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{ "date": "2015-09-15", "type": "Harvest" }
+			]
+		},
+		{
+			"worksteps": [
+				{ "date": "2016-06-01", "type": "Sowing", "crop": ["ref", "crops", "ZR"] },
+				{
+					"date": "2016-06-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-06-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-06-22",
+					"type": "MineralFertilization",
+					"amount": [153.0, "kg N"],
+					"partition": ["ref", "fert-params", "UAN"]
+				},
+				{
+					"date": "2016-07-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-07-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-07-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-07-29",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-08-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2016-08-15",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{ "date": "2016-09-15", "type": "Harvest" }
+			]
+		},
+		{
+			"worksteps": [
+				{ "date": "2017-06-01", "type": "Sowing", "crop": ["ref", "crops", "MEP"] },
+				{
+					"date": "2017-06-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-06-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-06-22",
+					"type": "MineralFertilization",
+					"amount": [120.0, "kg N"],
+					"partition": ["ref", "fert-params", "UAN"]
+				},
+				{
+					"date": "2017-07-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-07-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-07-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-07-29",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-08-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2017-08-15",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{ "date": "2017-09-15", "type": "Harvest" }
+			]
+		},
+		{
+			"worksteps": [
+				{ "date": "2018-06-01", "type": "Sowing", "crop": ["ref", "crops", "ZR"] },
+				{
+					"date": "2018-06-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-06-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-06-22",
+					"type": "MineralFertilization",
+					"amount": [150.0, "kg N"],
+					"partition": ["ref", "fert-params", "UAN"]
+				},
+				{
+					"date": "2018-07-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-07-10",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-07-20",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-07-29",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-08-01",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{
+					"date": "2018-08-15",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+					}
+				},
+				{ "date": "2018-09-15", "type": "Harvest" }
+			]
+		},
+		{
+			"worksteps": [
+							{ "date": "2019-06-01", "type": "Sowing", "crop": ["ref", "crops", "MEP"] },
+							{
+								"date": "2019-06-10",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-06-20",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-06-22",
+								"type": "MineralFertilization",
+								"amount": [128.0, "kg N"],
+								"partition": ["ref", "fert-params", "UAN"]
+							},
+							{
+								"date": "2019-07-01",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-07-10",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-07-20",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-07-29",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-08-01",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{
+								"date": "2019-08-15",
+								"type": "Irrigation",
+								"amount": [20.0, "mm"],
+								"parameters": {
+									"nitrateConcentration": [0.0, "mg dm-3"],
+									"sulfateConcentration": [0.0, "mg dm-3"]
+								}
+							},
+							{ "date": "2019-09-15", "type": "Harvest" }
+			]
+		}
+	],
+	"CropParameters": ["include-from-file", "general/crop.json"]
+}
+
+

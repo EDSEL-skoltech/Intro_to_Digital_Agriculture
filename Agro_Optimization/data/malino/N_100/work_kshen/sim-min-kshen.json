@@ -1,0 +1,58 @@
+{
+	"crop.json": "/trinity/home/m.gasanov/monica/sensitivity/sim/crop-full.json",
+	"site.json": "site-min-kshen.json",
+	"climate.csv": "/trinity/home/m.gasanov/monica/sensitivity/sim/climate-kshen.csv",
+
+	"climate.csv-options": {
+		"no-of-climate-file-header-lines": 2,
+		"csv-separator": ";"
+	},
+	
+	"debug?": false,
+	"include-file-base-path": "${MONICA_PARAMETERS}/",
+
+	"output": { 
+	  "write-file?": true,
+
+		"path-to-output": "./total_result/",
+		"file-name": "sim-min-out_2011.csv",
+	
+		"csv-options": {
+			"include-header-row": true,
+			"include-units-row": true,
+			"include-aggregation-rows": false,
+			"csv-separator": ","
+		},
+		
+		"events" : [
+			"crop", [
+				"CM-count",
+				"Crop",
+				["Yield", "LAST"],
+				["Date|sowing", "FIRST"],
+				["Date|harvest", "LAST"]
+			],
+
+			"yearly", [
+				"Year", 
+				["N", [1, 3]], 
+				["RunOff", "SUM"], 
+				["NLeach", "SUM"], 
+				["Recharge", "SUM"]
+			],
+
+			"run", [["Precip", "SUM"]]
+		]
+	},
+
+	"UseSecondaryYields": true,
+	"NitrogenResponseOn": true,
+	"WaterDeficitResponseOn": true,
+	"EmergenceMoistureControlOn": true,
+	"EmergenceFloodingControlOn": true,
+
+	"UseNMinMineralFertilisingMethod": true,
+	"NMinUserParams": { "min": 10, "max": 120, "delayInDays": 10 },
+	"NMinFertiliserPartition": ["include-from-file", "mineral-fertilisers/AN.json"],
+	"JulianDayAutomaticFertilising": 89
+}

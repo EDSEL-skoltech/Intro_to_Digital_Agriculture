@@ -1,0 +1,9 @@
+{
+  "latitude": 55,
+  "longitude": 37,
+  "crop_start": "2020-03-31",
+  "crop_end": "2020-10-20",
+  "crop_name": "ячмень",
+  "irrigation_events":["2020-07-20", "2020-06-20"], 
+  "irrigation_ammounts":[10,10]
+}

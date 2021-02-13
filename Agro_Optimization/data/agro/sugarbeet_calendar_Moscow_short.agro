@@ -1,0 +1,18 @@
+Version: 1.0
+AgroManagement:
+- 2019-06-01:
+    CropCalendar:
+        crop_name: 'sugar-beet'
+        variety_name: 'sugar-beet-601'
+        crop_start_date: 2019-06-02
+        crop_start_type: emergence
+        crop_end_date: 2019-10-15
+        crop_end_type: harvest
+        max_duration: 300
+    TimedEvents:
+    -   event_signal: apply_npk
+        name:  Timed N/P/K application table
+        comment: All fertilizer amounts in kg/ha
+        events_table:
+        - 2019-06-22: {N_amount : 128, P_amount: 25, K_amount: 122}
+    StateEvents: null
