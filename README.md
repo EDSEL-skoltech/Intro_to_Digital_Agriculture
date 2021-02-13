@@ -4,12 +4,13 @@
 ## Syllabys 
 
 
-* [__Crop models__](./Crop_models) Crop simulation models
+* [__Crop models__](./Crop_models) - Crop simulation models
     * Crop simulation models and examples
     * Sensitivity analysis of comlex models
     * Homework
 
 ## Course team 
 
-    * Mariia Pukalchik - *Instruktor*
-    * Dmitrii Shadrin - TA
+* Mariia Pukalchik - *Instruktor*
+* Dmitrii Shadrin - TA
+* and others
