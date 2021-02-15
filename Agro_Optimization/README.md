@@ -1,5 +1,5 @@
 # Agricultural optimization
-> Seminar, Introduction to Digital Agro.
+> Seminar, Introduction to Digital Agro. We will consider how we can use crop simulation models and optimization methods to find optimal strategies.
 
 [![License](https://img.shields.io/github/license/EDSEL-skoltech/multi_objective_irrigation)](https://github.com/EDSEL-skoltech/multi_objective_irrigation/blob/main/LICENSE)
 [![issues](https://img.shields.io/github/issues/EDSEL-skoltech/multi_objective_irrigation)](https://github.com/EDSEL-skoltech/multi_objective_irrigation/issues)
