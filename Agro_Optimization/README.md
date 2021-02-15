@@ -19,6 +19,13 @@ Open `Plots_for_optimizers.ipynb` in Google Colab!
 
 <a href="https://colab.research.google.com/github/EDSEL-skoltech/Intro_to_Digital_Agriculture/blob/main/Agro_Optimization/Plots_for_optimizers.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+Crop yield prediction based on Machine Learning
+
+<a href="https://colab.research.google.com/github/EDSEL-skoltech/Intro_to_Digital_Agriculture/blob/main/Agro_Optimization/Seminar_Yield_prediction_ML.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+
 ## Dependencies 
 
 PCSE/WOFOST - Python Crop Simulator Environment
