@@ -9,7 +9,7 @@
 
 * [__Crop models__](./Crop_models) - Crop simulation models
     * Crop simulation models and examples
-    * Sensitivity analysis of comlex models
+    * Sensitivity analysis of crop simulation models
     * Homework
 * [__Agro optimization__](./Agro_Optimization) - Optimization of agricultural practices
     * Gradient-free optimization and crop simulation models
