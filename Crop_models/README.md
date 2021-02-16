@@ -8,7 +8,9 @@
 
 
 
-<!-- ![graphical](plots_ICCS/Graphical_abstract.png) -->
+## Presentation
+
+Crop models - [pdf](https://drive.google.com/file/d/1ao2In-YExZ3Jcu7GyjihcBBPjN8SoGh9/view?usp=sharing)
 
 ## Google Colab 
 
@@ -57,9 +59,9 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 
 
-
 ## Homework
  
+
 > In our lab work, we will use the crop simulation model WOFOST. Documentation for package and model: https://pcse.readthedocs.io/. Your task will be to conduct any crop growth simulations for several years for the Moscow region or any other. It will also be necessary to conduct a sensitivity analysis and optimize the irrigation strategy. For sensitivity analysis, we will use the SALib package. For optimization, we will use Nevergrad package.
  
 All the necessary data is available in the GitHub repository and in Google Colabs.

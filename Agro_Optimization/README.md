@@ -6,7 +6,10 @@
 [![Rg](https://img.shields.io/badge/ResearchGate-Follow-green)](https://www.researchgate.net/project/Digital-Agro)
 
 
-<!-- ![graphical](plots_ICCS/Graphical_abstract.png) -->
+
+## Presentation
+
+Optimization and machine learning - [pdf](https://drive.google.com/file/d/1aXmmWXWTZyRBS2Vu9gxRBS_uW0S03lhi/view?usp=sharing)
 
 ## Google Colab 
 
