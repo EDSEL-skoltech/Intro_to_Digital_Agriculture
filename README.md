@@ -16,8 +16,16 @@
     * Irrigation shedule optimization
     * Homework
 
+* [__Computer Vision - Antarctic__](./Computer_Vision_Antarctic) - Computer Vision - Antarctic Station case
+    * Computer vision for greenhouse
+    * Introduction to CNN
 ## Course team 
 
 * Mariia Pukalchik - *Instructor*
 * Dmitrii Shadrin - TA
+* Mikhail Gasanov
+* Sergey Nesteruk
+* Nikita Stasenko
+* Svetlana Illarionova
+* Ivan Matvienko
 * and others
