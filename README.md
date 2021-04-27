@@ -19,6 +19,11 @@
 * [__Computer Vision - Antarctic__](./Computer_Vision_Antarctic) - Computer Vision - Antarctic Station case
     * Computer vision for greenhouse
     * Introduction to CNN
+
+ * [__Satellite Imagery__](./Satellite_Imagery) - Remote sensing in the agriculture
+    * Computer vision and Satellite images for agriculture
+    * CNN for crops classification
+
 ## Course team 
 
 * Mariia Pukalchik - *Instructor*
@@ -29,3 +34,7 @@
 * Svetlana Illarionova
 * Ivan Matvienko
 * and others
+
+## Contacts
+
+mikhail.gasanov[a]skoltech.ru
