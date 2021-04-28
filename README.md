@@ -28,6 +28,7 @@
 
 * Mariia Pukalchik - *Instructor*
 * Dmitrii Shadrin - TA
+* Polina Tregubova
 * Mikhail Gasanov
 * Sergey Nesteruk
 * Nikita Stasenko
