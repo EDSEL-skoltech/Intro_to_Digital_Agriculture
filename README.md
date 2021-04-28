@@ -16,7 +16,7 @@
     * Seminar R
     * Homework
 
-* [__Statistics in agriculture__](./CV_for_phenotyping) - CV and Deep Learning techniques for apple segmentation
+* [__CV for phenotyping__](./CV_for_phenotyping) - CV and Deep Learning techniques for apple segmentation
     * Lecture
     * Seminar OpenCV
     * Homework
