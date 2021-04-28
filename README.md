@@ -6,6 +6,20 @@
 
 ## Syllabys 
 
+* [__Introduction__](./Introduction) - Course Introduction
+    * Introduction to Digital Agriculture
+    * Lectures
+    * Homeworks
+
+* [__Statistics in agriculture__](./Statistics_in_agriculture) - Basic statistics in agriculture and environmental sciences
+    * Lecture
+    * Seminar R
+    * Homework
+
+* [__Statistics in agriculture__](./CV_for_phenotyping) - CV and Deep Learning techniques for apple segmentation
+    * Lecture
+    * Seminar OpenCV
+    * Homework
 
 * [__Crop models__](./Crop_models) - Crop simulation models
     * Crop simulation models and examples
