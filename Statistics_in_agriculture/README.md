@@ -10,7 +10,7 @@
 
 ## Presentation
 
-Crop models - [pdf](./Lecture_2_EDP_statistics.pdf)
+Statistics in agriculture - [pdf](./Lecture_2_EDP_statistics.pdf)
 
 
 Agriculture is the art and science of cultivating the soil, growing crops and raising animals. It
