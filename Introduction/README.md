@@ -10,5 +10,5 @@
 
 ## Presentation
 
-Crop models - [pdf](./Intro.pdf)
+Introduction - [pdf](./Intro.pdf)
 
