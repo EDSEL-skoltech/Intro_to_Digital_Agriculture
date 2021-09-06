@@ -10,7 +10,7 @@
 
 ## Presentation
 
-Crop models - [pdf](./CV_for_Semantic_Segmentation_in_DA_Seminar.pdf)
+Computer Vision for Semantic Segmentation - [pdf](./CV_for_Semantic_Segmentation_in_DA_Seminar.pdf)
 
 ## Google Colab 
 
